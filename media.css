@@ -1,0 +1,11 @@
+@media screen and (max-width: 350px) {
+    #play {
+        width: 100px;
+    }
+    #prev {
+        margin-right: 10px;
+    }
+    #next {
+        margin-left: 10px;
+    }
+}

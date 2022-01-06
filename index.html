@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="interact.min.js"></script>
+    <title>Falun Dafa Music</title>
+</head>
+<body>
+    <div id="canvas">
+        <main>
+            <div id="title">Falun Dafa Music</div>
+            <div id="timer">00:00</div>
+            <div id="slider-container">
+                <div class="slider" tabindex="1"></div>
+            </div>
+            <div id="toolbar">
+                <button id="prev" class="extra">
+                    <img src="prev.svg" alt="prev">
+                </button>
+                <button id="play">
+                    <img src="play.svg" alt="play/pause">
+                </button>
+                <button id="next" class="extra">
+                    <img src="next.svg" alt="next">
+                </button>
+            </div>
+        </main> 
+        <div id="menu"></div>
+        <script src="init.js" defer></script>
+        <script src="script.js" defer></script>
+        <footer>
+            <span>The musical resources of the <a href="https://en.falundafa.org/falun-dafa-video-audio.html">Falun Dafa</a> are used only for personal, noncommercial, nonprofit and nondistribution purpose.</span><br>
+            <span>v1.0.0.0</span>
+        </footer>
+    </div>
+</body>
+</html>
